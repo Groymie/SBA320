@@ -3,7 +3,7 @@ import "./display.css";
 
 function Display({ input }) {
   return (
-    <div>
+    <div className="Display">
       <input type="text" value={input} readOnly />
     </div>
   );
